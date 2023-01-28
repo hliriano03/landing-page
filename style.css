@@ -48,7 +48,16 @@ label {
 
 .container {
   display: flex;
-  width: 50%;
+  margin: 50px;
+}
+
+.placeholder-img {
+  display: flex;
+  max-width: 75%;
+  min-width: 25%;
+  height: auto;
+  min-width: 300px;
+  margin-left: auto;
 }
 
 .container > p {
@@ -65,6 +74,8 @@ label {
   display: flex;
   text-align: center;
   gap: 36px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .img-content {
@@ -75,12 +86,31 @@ label {
 }
 
 .quote-panel {
+  display: flex;
+  flex-direction: column;
   background-color: #e5e7eb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+  margin: 0;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  color: #1f2937;
 }
 
 .hero {
   flex-direction: column;
 }
+
+
 
 .footer {
   margin-top: auto;
