@@ -73,6 +73,10 @@ label {
   align-items: center;
 }
 
+.info-container {
+  max-width: 200px;
+}
+
 .info-section {
   display: flex;
   text-align: center;
